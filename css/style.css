@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 /* HEADER */
@@ -67,9 +69,92 @@ body{
     max-width: 991px;
     margin: 0 auto;
     margin-top: 5px;
-    padding: 250px;
+    padding: 40px;
     margin-bottom: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding-left: 90px;
+    height: auto;
+    line-height: 25px;
+}
+
+.list{
+    margin-top: 20px;
+}
+
+
+@counter-style symbols-example {
+    system: fixed;
+    symbols: "\25BC" "\2705";
+}
+
+.firstlist{
+    list-style: symbols-example;
+} 
+
+@counter-style symbols-example2 {
+    system: fixed;
+    symbols: "\25BC" "\2705" "\2705" "\274C" "\2705";
+}
+
+.secondlist{
+    list-style: symbols-example2;
+}
+
+@counter-style symbols-example3 {
+    system: fixed;
+    symbols: "\25BC" "\274C" "\2705" "\2705" "\2705";
+}
+
+.thirdlist{
+    list-style: symbols-example3;
+}
+
+.editorial{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.q1goals{
+    background-color: rgb(140, 2, 175);
+    color: white;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.recruiting{
+    background-color: rgb(3, 134, 88);
+    color: white;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.mobile{
+    background-color: orange;
+    color: white;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.website{
+    background-color: rgba(245, 13, 179, 0.579);
+    color: white;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.sales{
+    background-color: rgb(129, 129, 0);
+    color: white;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 8px;
 }
 
