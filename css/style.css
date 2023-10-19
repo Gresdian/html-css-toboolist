@@ -73,7 +73,7 @@ body{
     margin-bottom: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding-left: 90px;
+    padding-left: 70px;
     height: auto;
     line-height: 25px;
 }
@@ -83,31 +83,37 @@ body{
 }
 
 
-@counter-style symbols-example {
-    system: fixed;
-    symbols: "\25BC" "\2705";
-}
 
 .firstlist{
-    list-style: symbols-example;
+    list-style-type: none;
 } 
 
-@counter-style symbols-example2 {
-    system: fixed;
-    symbols: "\25BC" "\2705" "\2705" "\274C" "\2705";
-}
 
 .secondlist{
-    list-style: symbols-example2;
+    list-style-type: none;
 }
 
-@counter-style symbols-example3 {
-    system: fixed;
-    symbols: "\25BC" "\274C" "\2705" "\2705" "\2705";
-}
 
 .thirdlist{
-    list-style: symbols-example3;
+    list-style-type: none;
+}
+
+.circole{
+    padding: 3px 5px;
+    font-size: 9px;
+    margin-right: 5px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 5;
+    vertical-align: middle;
+}
+
+.check-done{
+    color: rgb(47, 255, 75);
+}
+
+.check-failed{
+    color: red;
 }
 
 .editorial{
@@ -157,4 +163,5 @@ body{
     padding: 7px;
     border-radius: 12px;
 }
+
 
